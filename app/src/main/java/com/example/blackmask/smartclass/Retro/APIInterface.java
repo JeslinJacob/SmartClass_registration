@@ -18,4 +18,9 @@ public interface APIInterface {
                                @Field("addr") String addr,
                                @Field("pass") String pass,
                                @Field("image") String image);
+
+    @FormUrlEncoded
+    @POST("login.php")
+    Call<LoginResponse> login(@Field("semail") String email,
+                              @Field("pass") String pass);
 }

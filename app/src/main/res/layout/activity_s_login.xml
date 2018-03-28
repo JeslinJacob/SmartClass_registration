@@ -47,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
-                        android:hint="Username" />
+                        android:hint="email" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -63,7 +63,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
-                        android:hint="password" />
+                        android:hint="password"
+                        android:inputType="textPassword"/>
 
                 </android.support.design.widget.TextInputLayout>
 

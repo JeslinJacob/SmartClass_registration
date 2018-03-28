@@ -13,7 +13,7 @@
     <string name="nameerror">Enter a valid name</string>
     <string name="emailerror">Enter a valid email</string>
     <string name="mobileerror">Enter a valid mobile</string>
-    <string name="title_activity_s_mail_page">S_mailPage</string>
+    <string name="title_activity_s_mail_page">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

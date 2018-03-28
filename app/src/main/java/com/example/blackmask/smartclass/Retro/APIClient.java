@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class APIClient extends Application {
-    public static final String BASE_URL = "https://jeslinserver.000webhostapp.com/SmartStudent/";
+    public static final String BASE_URL = "http://192.168.1.5/SmartStudent/";
 
     private static Retrofit retrofit = null;
 

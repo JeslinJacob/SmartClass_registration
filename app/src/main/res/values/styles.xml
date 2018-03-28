@@ -30,5 +30,12 @@
         <item name="android:textColor">@android:color/black</item>
         <item name="android:background">@android:color/white</item>
     </style>
-
+    <style name="loggingIn" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loging in your account</item>
+        <item name="DialogSpotColor">@color/colorPrimary</item>
+        <item name="DialogSpotCount">4</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
 </resources>

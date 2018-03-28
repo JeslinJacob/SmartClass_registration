@@ -1,5 +1,6 @@
 package com.example.blackmask.smartclass;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -32,6 +33,13 @@ public class S_mainPage extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    public void AssignmentClick(View v)
+    {
+        Intent i = new Intent(getApplicationContext(),Submit_Assignment.class);
+        startActivity(i);
+
     }
 
     @Override
